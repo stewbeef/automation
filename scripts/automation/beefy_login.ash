@@ -118,9 +118,10 @@ void loginstuff()
 
 void main()
 {
-	if(my_adventures() > 50 || my_turncount() < 30)
+	if(get_property("_done_login_stuff") != "true")
 	{
 		loginstuff();
+		set_property("_done_login_stuff",true);
 	}
 	
 }
