@@ -118,7 +118,7 @@ void loginstuff()
 
 void main()
 {
-	if(my_adventures() > 60 || my_turncount() < 30)
+	if(my_adventures() > 50 || my_turncount() < 30)
 	{
 		loginstuff();
 	}
