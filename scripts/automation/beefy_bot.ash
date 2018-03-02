@@ -1,7 +1,7 @@
 //Bot script
 
 import "do_clanfortune.ash";
-import "drachs_tools.ash";
+import "beefy_tools.ash";
 
 
 void main(string sender, string message, string channel)
