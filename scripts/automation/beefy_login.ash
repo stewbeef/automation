@@ -104,7 +104,7 @@ void loginstuff()
 	else
 	{
 		//Maximize("effective, 3 mainstat, item, meat, mp regen, hp regen", false);
-		CheerFillUp();
+		//CheerFillUp();
 		outfit("Main");
 		boolean bounties = false;
 		if(bounties)
