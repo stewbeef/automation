@@ -112,8 +112,6 @@ void loginstuff()
 			cli_execute("call do_bounties.ash");
 		}
 	}
-
-	sg_closet_remove();	
 }
 
 void main()
