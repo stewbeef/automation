@@ -20,12 +20,12 @@ void main()
 	if(my_name() == "stewbeef")
 	{
 		cli_execute("call do_pvp.ash");
-		maximize("adventures",false);
+		maximize("5 adventures, pvp fights",false);
 	}
 	else
 	{
 		cli_execute("call do_pvp.ash");
-		maximize("adventures, 2 pvp fights",false);
+		maximize("5 adventures, pvp fights",false);
 	}
 	if(is_pvp_stealable())
 	{
@@ -49,6 +49,7 @@ void main()
 		{
 			drink(1,"fog murderer".to_item());
 		}
+		/*
 		item number_manual = to_item("Manual of Numberology");
 		int new_price = 38888000;
 		if(shop_amount(number_manual) > 0)
@@ -61,6 +62,6 @@ void main()
 				put_shop(number_price - 10,0,number_manual);
 			}
 		}
-		
+		*/
 	}
 }
